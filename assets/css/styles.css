@@ -32,3 +32,12 @@ a {
 	align-items: center;
 	justify-content: space-between;
 }
+.main-div {
+	margin: 3rem 5rem 0rem 5rem;
+}
+
+@media screen and (max-width: 576px) {
+	h1 {
+		font-size: 35pt; /* Font size under 768px viewport width */
+	}
+}
