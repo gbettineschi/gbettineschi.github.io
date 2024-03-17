@@ -27,18 +27,23 @@ a {
 	word-spacing: 5pt; /* Adjust the value as needed */
 }
 
+.small {
+	font-size: 12pt;
+}
+a.small {
+	border-bottom: 0.5px solid;
+}
 .container {
 	display: flex;
-	align-items: center;
-	justify-content: space-between;
+	align-items: baseline;
 }
 .main-div {
-	margin: 3rem 5rem 0rem 5rem;
+	margin: 3rem 5rem 2rem 5rem;
 }
 
 @media screen and (max-width: 576px) {
 	.main-div {
-		margin: 3rem 1.2rem 0rem 1.2rem;
+		margin: 3rem 1.2rem 2rem 1.2rem;
 	}
 	h1 {
 		font-size: 35pt; /* Font size under 768px viewport width */
