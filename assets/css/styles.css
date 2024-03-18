@@ -38,12 +38,12 @@ a.small {
 	align-items: baseline;
 }
 .main-div {
-	margin: 3rem 5rem 2rem 5rem;
+	padding: 3rem 5rem 2rem 5rem;
 }
 
 @media screen and (max-width: 576px) {
 	.main-div {
-		margin: 3rem 1.2rem 2rem 1.2rem;
+		padding: 3rem 1.2rem 2rem 1.2rem;
 	}
 	h1 {
 		font-size: 35pt; /* Font size under 768px viewport width */
